@@ -1,0 +1,5 @@
+## To install the library "python -r requirements.txt"
+ipykernel
+numpy
+pandas
+matplotlib
