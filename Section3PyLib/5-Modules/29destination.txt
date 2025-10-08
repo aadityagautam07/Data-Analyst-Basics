@@ -1,0 +1,3 @@
+# hello this is Aaditya gautam
+# I am using OS shutil() to copy this text
+# this is reagarding standard library
