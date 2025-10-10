@@ -11,4 +11,4 @@ from employee_salary
 where occupation like '%manager%'
 group by occupation
 having avg(salary) > 60000
-;
+; 

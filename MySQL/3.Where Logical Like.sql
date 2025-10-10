@@ -53,4 +53,4 @@ where first_name like 'a%'
 select *
 from employee_demographics
 where first_name like 'a___%'
-;
+; 
