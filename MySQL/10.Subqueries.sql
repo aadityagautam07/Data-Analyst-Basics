@@ -15,7 +15,7 @@ from employee_salary) as average
 from employee_salary
 group by first_name, last_name
 ;
-
+ 
 select gender, avg(age), min(age), max(age), count(age)
 from employee_demographics
 group by gender

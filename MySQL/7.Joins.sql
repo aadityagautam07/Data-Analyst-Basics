@@ -53,7 +53,7 @@ from employee_salary sal1
 join employee_salary sal2
 	on sal1.employee_id +1 = sal2.employee_id
 ;
-
+ 
 -- Joining Multiple tables together
 
 select *

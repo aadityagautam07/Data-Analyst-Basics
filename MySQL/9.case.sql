@@ -14,7 +14,7 @@ from employee_demographics;
 -- < 50000 = 5%
 -- > 50000 = 7%
 -- Finance = 10% bonus
-
+ 
 select first_name,last_name,salary,
 case
 	when salary < 50000 then salary + salary*.05

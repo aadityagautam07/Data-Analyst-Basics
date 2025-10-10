@@ -6,7 +6,7 @@ select first_name, length(first_name)
 from employee_demographics
 order by 2
 ;
-
+ 
 select upper('Aadi');
 select lower('GAUTAM');
 

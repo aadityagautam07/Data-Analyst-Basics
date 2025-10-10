@@ -17,8 +17,7 @@ from employee_demographics as dem
 join employee_salary as sal
 	on dem.employee_id = sal.employee_id
 ;
-
-
+ 
 select dem.first_name, dem.last_name, gender, salary,
 sum(salary) over(partition by gender order by dem.employee_id) as Rolling_total
 from employee_demographics as dem
