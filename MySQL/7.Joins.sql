@@ -40,7 +40,7 @@ join employee_salary sal2
 	on sal1.employee_id = sal2.employee_id
 ;
 
--- Q. Assign secret santa to each employee and for each employee their secret santa
+-- Q. Assign secret santa to each employee and for each employee their secret santa.
 --  is next employee and get the separate table for that.
  
 select sal1.employee_id as secret_emp_id,
