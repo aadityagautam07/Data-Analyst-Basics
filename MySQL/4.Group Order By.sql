@@ -7,7 +7,7 @@ group by gender
 ;
 
 select occupation, salary
-from emplo++yee_salary
+from employee_salary
 group by occupation, salary
 ;
 
@@ -23,17 +23,3 @@ from employee_demographics
 order by gender , age
 ;
 
--- Having VS Where
-
-select gender ,  avg(age)
-from employee_demographics
-group by gender
-having avg(age) >40
-;
-
-select occupation , avg(salary)
-from employee_salary
-where occupation like '%manager%'
-group by occupation
-having avg(salary) > 60000
-;
